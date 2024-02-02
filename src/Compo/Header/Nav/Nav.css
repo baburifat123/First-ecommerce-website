@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  box-shadow: 0 1px 3px -2px black;
+  align-items: center;
+}
+.nav2 ul li {
+  color: #626262;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav2 ul li hr {
+  border: none;
+  width: 90%;
+  height: 3px;
+  border-radius: 10px;
+  background: #ff4141;
+}
+#button {
+  background: white;
+  outline: none;
+  width: 157px;
+  height: 57px;
+  border-radius: 75px;
+  border: 1px solid #7a7a7a;
+  font-size: 20px;
+  font-weight: 500;
+  color: #515151;
+}
+.counter {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -28px;
+  margin-left: -30px;
+  border-radius: 11px;
+  font-size: 14px;
+  color: white;
+}
