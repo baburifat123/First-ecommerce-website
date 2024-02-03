@@ -1,0 +1,36 @@
+.exlusive {
+  width: 75%;
+  height: 60vh;
+  display: flex;
+  margin: auto;
+  padding: 0px 140px;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  align-items: center;
+  margin-bottom: 200px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.text p {
+  font-size: 20px;
+}
+.text button {
+  width: 150px;
+  background: red;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+.image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

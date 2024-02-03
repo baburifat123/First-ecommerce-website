@@ -1,0 +1,36 @@
+#feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hr {
+  width: 350px;
+  height: 5px;
+  background-color: red;
+  margin-top: 10px;
+}
+.item {
+  width: 350px;
+  height: 75vh;
+}
+.product {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.item img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.price {
+  display: flex;
+  gap: 20px;
+}
+.price h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.img {
+  overflow: hidden;
+  border-radius: 10px;
+}

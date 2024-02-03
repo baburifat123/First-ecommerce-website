@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 30vh;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.logo h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.prodcut {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.prodcut h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #343232;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+}

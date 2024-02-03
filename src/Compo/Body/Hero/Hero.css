@@ -1,0 +1,30 @@
+.herosection {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  align-items: center;
+  justify-content: space-around;
+}
+.hero1 {
+  display: flex;
+  align-items: center;
+}
+.hero1 img {
+  width: 80px;
+}
+.heros {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.right img {
+  width: 600px;
+  height: 800px;
+}
+.letest-collaction {
+  background-color: red;
+  width: 180px;
+  padding: 5px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
