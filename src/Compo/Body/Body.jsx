@@ -1,4 +1,3 @@
-import Footer from "../Footer/Footer";
 import Exclusive from "./Exclusive/Exclusive";
 import Hero from "./Hero/Hero";
 import NewCollaction from "./NewCollaction/NewCollaction";
@@ -13,7 +12,6 @@ const Body = () => {
       <Exclusive></Exclusive>
       <NewCollaction></NewCollaction>
       <Offer></Offer>
-      <Footer></Footer>
     </div>
   );
 };

@@ -1,0 +1,40 @@
+.menu {
+  width: 340px;
+  height: 65vh;
+}
+.cart {
+  align-items: center;
+  justify-content: center;
+  margin: 20px 150px;
+  gap: 80px;
+}
+.banner {
+  width: 82%;
+  display: block;
+  margin: 30px auto;
+}
+.dowp {
+  display: flex;
+  align-items: center;
+  margin: 0px 170px;
+  justify-content: space-between;
+}
+.span {
+  font-size: 32px;
+  font-weight: 500;
+}
+.h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.menu img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.price {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}

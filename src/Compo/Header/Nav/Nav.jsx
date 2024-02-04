@@ -23,11 +23,11 @@ const Nav = () => {
 
           <li
             onClick={() => {
-              setmenu("menu");
+              setmenu("men");
             }}
           >
-            <Link to={"/menu"}> Menu </Link>
-            {menu === "menu" ? <hr /> : <></>}
+            <Link to={"/men"}> Men </Link>
+            {menu === "men" ? <hr /> : <></>}
           </li>
 
           <li
