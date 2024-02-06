@@ -5,10 +5,10 @@ import { FaGithub } from "react-icons/fa";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="logo">
+    <div className="flex flex-col items-center justify-center gap-5 mb-4">
+      <div className="flex item-center">
         <img src={shopper} alt="" />
-        <h1>SHOPPER</h1>
+        <h1 className="text-5xl font-bold">SHOPPER</h1>
       </div>
       <div className="prodcut">
         <h1>Company</h1>

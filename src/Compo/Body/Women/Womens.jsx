@@ -1,5 +1,5 @@
 import data_product from "../../../assets/data";
-import Women from "./Women";
+import Item from "../../Item";
 import "./Womens.css";
 const Womens = () => {
   return (
@@ -8,7 +8,7 @@ const Womens = () => {
       <div className="hr"></div>
       <div className="product">
         {data_product.map((item, id) => (
-          <Women
+          <Item
             key={id}
             props={item}
             id={item.id}
@@ -16,7 +16,7 @@ const Womens = () => {
             name={item.name}
             old_price={item.old_price}
             new_price={item.new_price}
-          ></Women>
+          ></Item>
         ))}
       </div>
     </div>

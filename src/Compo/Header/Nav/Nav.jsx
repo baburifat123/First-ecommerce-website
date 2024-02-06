@@ -49,8 +49,11 @@ const Nav = () => {
           </li>
         </ul>
       </div>
+
       <div className="nav3 flex items-center gap-4">
-        <button id="button">Login</button>
+        <Link to={"/login"}>
+          <button id="button">Login</button>
+        </Link>
         <img src={cart} alt="" />
         <div className="counter">0</div>
       </div>

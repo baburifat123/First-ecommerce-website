@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
+import { FaAngleDown } from "react-icons/fa6";
 import { ProductContext } from "../../Context/Context";
 import "../Product.css";
-import { FaAngleDown } from "react-icons/fa6";
+import Item from "../../Item";
 
 const Product = (props) => {
   const { all_data } = useContext(ProductContext);
@@ -13,6 +14,7 @@ const Product = (props) => {
   return (
     <div className="">
       <img className="banner" src={props.banner} alt="" />
+
       <div className="dowp">
         <div className="text1">
           <h1 className="h1">
@@ -27,16 +29,15 @@ const Product = (props) => {
       </div>
       <div className="cart grid lg:grid-cols-4">
         {filteredItems.map((item, id) => (
-          <div className="menu" key={id}>
-            <div className="overflow-hidden rounded-sm">
-              <img src={item.image} alt="" />
-            </div>
-            <h1>{item.name}</h1>
-            <div className="price">
-              <h1>{item.new_price}$</h1>
-              <h1 className="line-through text-[#8f8f8f]">{item.old_price}$</h1>
-            </div>
-          </div>
+          <Item
+            key={id}
+            props={item}
+            id={item.id}
+            img={item.image}
+            name={item.name}
+            old_price={item.old_price}
+            new_price={item.new_price}
+          ></Item>
         ))}
       </div>
     </div>

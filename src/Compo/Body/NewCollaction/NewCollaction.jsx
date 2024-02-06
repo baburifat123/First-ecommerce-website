@@ -1,6 +1,6 @@
 import new_collections from "../../../assets/new_collections";
+import Item from "../../Item";
 import "./NewCollaction.css";
-import NewCollactions from "./NewCollactions";
 const NewCollaction = () => {
   return (
     <div>
@@ -9,7 +9,7 @@ const NewCollaction = () => {
         <div className="hr mb-20"></div>
         <div className="products grid lg:grid-cols-4 gap-4">
           {new_collections.map((item, id) => (
-            <NewCollactions
+            <Item
               key={id}
               props={item}
               id={item.id}
@@ -17,7 +17,7 @@ const NewCollaction = () => {
               name={item.name}
               old_price={item.old_price}
               new_price={item.new_price}
-            ></NewCollactions>
+            ></Item>
           ))}
         </div>
       </div>

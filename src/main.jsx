@@ -9,6 +9,8 @@ import Body from "./Compo/Body/Body";
 import { ShopContext } from "./Compo/Context/Context";
 import Product from "./Compo/Product/Product/Product";
 import "./index.css";
+import SingUp from "./Compo/LoginAndSingUp/SingUp";
+import Products from "./Compo/Product/Product/Products";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: "/kids",
         element: <Product banner={kids} category="kid"></Product>,
+      },
+      {
+        path: "/login",
+        element: <SingUp></SingUp>,
+      },
+      {
+        path: "/product/:id",
+        element: <Products></Products>,
       },
     ],
   },
