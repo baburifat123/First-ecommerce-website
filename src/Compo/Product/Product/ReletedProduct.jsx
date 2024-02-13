@@ -1,13 +1,12 @@
-import data_product from "../../../assets/data";
+import all_product from "../../../assets/data.js";
 import Item from "../../Item";
-import "./Womens.css";
-const Womens = () => {
+const ReletedProduct = () => {
   return (
-    <div id="feature" className="">
-      <h1 className="lg:text-5xl font-bold">POPULAR IN WOMEN</h1>
-      <div className="hr"></div>
-      <div className="product">
-        {data_product.map((item, id) => (
+    <div className="releted">
+      <h1 className="text-3xl font-bold my-5">Releted Product</h1>
+      <div className="grid lg:grid-cols-4 gap-3">
+        {" "}
+        {all_product.map((item, id) => (
           <Item
             key={id}
             props={item}
@@ -23,4 +22,4 @@ const Womens = () => {
   );
 };
 
-export default Womens;
+export default ReletedProduct;

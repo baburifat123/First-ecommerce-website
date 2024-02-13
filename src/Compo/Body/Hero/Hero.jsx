@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <div className="herosection">
       <div className="left">
-        <h1 className="text-lg font-medium">NEW ARRIVALS ONLLY</h1>
+        <h1 className="lg:text-lg font-medium ">NEW ARRIVALS ONLLY</h1>
         <div className="heros">
           <div className="hero1">
             <h1 className="text-6xl font-semibold">new</h1>
-            <img src={hand} alt="" />
+            <img className="" src={hand} alt="" />
           </div>
           <h1 className="text-6xl font-semibold">Collactions </h1>
           <h1 className="text-6xl font-semibold">for everyone</h1>

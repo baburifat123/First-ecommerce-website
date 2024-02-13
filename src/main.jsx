@@ -11,6 +11,7 @@ import Product from "./Compo/Product/Product/Product";
 import "./index.css";
 import SingUp from "./Compo/LoginAndSingUp/SingUp";
 import Products from "./Compo/Product/Product/Products";
+import Cart from "./Compo/Cart/Cart";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/product/:id",
         element: <Products></Products>,
+      },
+      {
+        path: "/cart",
+        element: <Cart></Cart>,
       },
     ],
   },
